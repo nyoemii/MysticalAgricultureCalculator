@@ -10,4 +10,4 @@ This is a small Calculator i hacked together in like an hour with C# and a bit o
 
 This is purely a fun project and won't see many updates unless Mystical Agriculture updates.
 
-If you want an executable file, check the Releases.
+If you want an executable file, check the [Releases](https://github.com/noemiowo/MysticalAgricultureCalculator/releases/tag/stable/latest).
