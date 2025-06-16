@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 partial class Program
@@ -76,7 +76,7 @@ partial class Program
                 runInput = Console.ReadLine().Trim().ToLower();
             }
 
-            keepRunning = (runInput == "yes");
+            keepRunning = (runInput == "y");
         }
         Console.WriteLine("\nThanks for using this Calculator. Made by:");
         Console.WriteLine("\n\n               .-'''-.                                               .-'''-.                     .-'''-.     \r\n              '   _    \\                                            '   _    \\                  '   _    \\   \r\n   _..._    /   /` '.   \\      __.....__      __  __   ___   .--. /   /` '.   \\               /   /` '.   \\  \r\n .'     '. .   |     \\  '  .-''         '.   |  |/  `.'   `. |__|.   |     \\  '       _     _.   |     \\  '  \r\n.   .-.   .|   '      |  '/     .-''\"'-.  `. |   .-.  .-.   '.--.|   '      |  '/\\    \\\\   //|   '      |  ' \r\n|  '   '  |\\    \\     / //     /________\\   \\|  |  |  |  |  ||  |\\    \\     / / `\\\\  //\\\\ // \\    \\     / /  \r\n|  |   |  | `.   ` ..' / |                  ||  |  |  |  |  ||  | `.   ` ..' /    \\`//  \\'/   `.   ` ..' /   \r\n|  |   |  |    '-...-'`  \\    .-------------'|  |  |  |  |  ||  |    '-...-'`      \\|   |/       '-...-'`    \r\n|  |   |  |               \\    '-.____...---.|  |  |  |  |  ||  |                   '                        \r\n|  |   |  |                `.             .' |__|  |__|  |__||__|                                            \r\n|  |   |  |                  `''-...... -'                                                                   \r\n|  |   |  |                                                                                                  \r\n'--'   '--'                                                                                                ");
